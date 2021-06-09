@@ -159,9 +159,9 @@ Use the filterByWord function below to do the following:
 
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
-const filteredFlavors = []
 
 function filterByWord(array, string){
+    const filteredFlavors = [];
     for(let i = 0; i < array.length; i++){
         if (array[i].includes(string)){
             filteredFlavors.push(array[i]);
